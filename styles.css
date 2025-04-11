@@ -1,0 +1,107 @@
+/* Reset i base */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+    font-family: Arial, sans-serif;
+    background: #000000;
+    color: #334;
+    text-align: center;
+}
+/* Menú de navegació (.navbar) */
+.navbar {
+    background: rgb(27, 24, 24);
+    padding: 1rem 2rem;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.nav-link:hover { color: #00bcd4; }
+
+/* Contingut principal (.landing-container) */
+.landing-container {
+    background: #f9f9f9;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* Capçalera (.header) */
+.product-title {
+    font-family: Georgia, serif;
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    margin-bottom: 1rem;
+}
+.product-subtitle {
+    font-size: 1.2rem;
+    color: rgb(160, 149, 149);
+    margin-bottom: 2rem;
+}
+/* Imatge destacada (.hero-image) */
+.hero-section {
+    position: relative;
+    margin-bottom: 2rem;
+}
+.hero-image {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 12px;
+}
+.hero-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+}
+/* Descripció (.product-description) */
+.product-description {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 2rem;
+    max-width: 700px;
+}
+/* Botó de crida a l'acció (.cta-button) */
+.cta-button {
+    background: #276335;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 26px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background 0.4s;
+}
+.cta-button:hover { background: #218838; }
+
+/* Peu de pàgina (.main-footer) */
+.main-footer {
+    background: #111;
+    color: #fff;
+    padding: 2rem;
+}
+.footer-text {
+    margin-bottom: 1rem;
+}
+.footer-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-link:hover { color: #00bcd4; }
