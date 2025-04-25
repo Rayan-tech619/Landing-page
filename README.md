@@ -1,4 +1,5 @@
 # Landing-page
 
-![image](https://github.com/user-attachments/assets/968b96ea-b969-4193-bc30-94a9a24ed989)
+![imatge](https://github.com/user-attachments/assets/f368d28d-a65c-4941-bbef-f25763090211)
+
 
